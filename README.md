@@ -15,8 +15,12 @@ I am also attaching the standard schedules of the Spanish football league on wee
 # Every 5 minutes on Fridays from 21:00 to 23:00
 */5 21-23 * * 5 /home/user/check_web.sh
 # Every 5 minutes Saturdays and Sundays in the time slots of the matches normally
-*/5 14-16,16:15-18:15,18:30-20:30,21-23 * * 6,7 /home/user/check_web.sh
+*/5 14-16 * * 6,7 /home/polmurillas/comprovacio_web.sh
+5-59/5 16 * * 6,7 /home/polmurillas/comprovacio_web.sh
+0-15/5 17 * * 6,7 /home/polmurillas/comprovacio_web.sh
+*/5 18 * * 6,7 /home/polmurillas/comprovacio_web.sh
+0-30/5 19 * * 6,7 /home/polmurillas/comprovacio_web.sh
+*/5 21-23 * * 6,7 /home/polmurillas/comprovacio_web.sh
 # Every 5 minutes on Mondays from 21:00 to 23:00
 */5 21-23 * * 1 /home/user/check_web.sh
 ```
-
